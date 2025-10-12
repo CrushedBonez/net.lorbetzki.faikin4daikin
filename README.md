@@ -1,3 +1,6 @@
+# ACHTUNG! dieses Modul wird nicht mehr weiterentwickelt! #
+
+
 # Faikin 4 Daikin
 Die ist ein Symcon Modul zur Ansteuerung einer Daikin Klimaanlage mithilfe eines [ESP32](https://github.com/revk/ESP32-Faikin) welches an die S21 Schnittstelle der Klimaanlage angeschlossen wird. Im Anschluss sendet und empfängt Faikin die Daten per MQTT
 
