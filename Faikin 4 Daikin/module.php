@@ -292,6 +292,18 @@ require_once __DIR__ . '/../libs/VariableProfileHelper.php';
 									$this->SendDebug(__FUNCTION__,"Update ".$DP_Path." to ".$DP_Value / 1000, 0);
 									$DP_Value = $DP_Value / 1000;
 								break;
+								case "Whoutside":
+									$this->SendDebug(__FUNCTION__, "Update " . $DP_Path . " to " . $DP_Value / 1000, 0);
+									$DP_Value = $DP_Value / 1000;
+								break;
+								case "Whcooling":
+									$this->SendDebug(__FUNCTION__, "Update " . $DP_Path . " to " . $DP_Value / 1000, 0);
+									$DP_Value = $DP_Value / 1000;
+								break;
+								case "Whheating":
+									$this->SendDebug(__FUNCTION__, "Update " . $DP_Path . " to " . $DP_Value / 1000, 0);
+									$DP_Value = $DP_Value / 1000;
+								break;
 								case "ha":
 									$this->WriteAttributeBoolean('setting_ha',$DP_Value);
 									$this->UpdateFormField("setting_ha", "value", $DP_Value);
